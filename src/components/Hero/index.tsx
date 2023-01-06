@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 type Props = {};
 
 const Hero = (props: Props) => {
@@ -14,7 +16,7 @@ const Hero = (props: Props) => {
           alias
         </p>
         <button className="uppercase text-base md:text-lg tracking-wider mt-4 bg-[#111] text-white py-2 px-3 rounded active:scale-[0.98]">
-          Shop now
+          <Link to="/products">Shop now</Link>
         </button>
       </div>
       <div className="laptop:flex-[2] order-1 laptop:order-2">
