@@ -1,4 +1,4 @@
-import { Featured, Hero } from "../../components";
+import { Hero } from "../../components";
 
 type Props = {};
 
@@ -6,7 +6,6 @@ const Home = (props: Props) => {
   return (
     <>
       <Hero />
-      <Featured />
     </>
   );
 };
