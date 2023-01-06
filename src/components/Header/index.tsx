@@ -7,7 +7,7 @@ type Props = {};
 const Header = (props: Props) => {
   return (
     <header className="bg-white w-full h-24">
-      <div className="flex item-center justify-between w-[85%] m-auto h-full bg-red-100">
+      <div className="flex item-center justify-between w-[85%] m-auto h-full">
         <Link to="/" className="flex items-center">
           <GiTwirlyFlower className="text-6xl text-red-500" />
           <h2 className="ml-1 text-4xl font-bold tracking-wide text-gray-700">
@@ -25,9 +25,9 @@ const Header = (props: Props) => {
             <Link to="/product">Product</Link>
           </li>
         </ul>
-        <div className="flex items-center laptop:cursor-pointer">
-          <h3 className="text-4xl text-gray-700">Cart</h3>
-          <FaShoppingCart className="text-4xl text-red-500" />
+        <div className="flex items-center h-full gap-1 laptop:cursor-pointer">
+          <h3 className="text-2xl text-black font-semibold">Cart</h3>
+          <FaShoppingCart className="text-2xl text-gray-600" />
         </div>
       </div>
     </header>
