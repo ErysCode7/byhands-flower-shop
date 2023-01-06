@@ -1,11 +1,7 @@
-import React from 'react'
-
-type Props = {}
+type Props = {};
 
 const Header = (props: Props) => {
-  return (
-    <div>Header</div>
-  )
-}
+  return <header>Header</header>;
+};
 
-export default Header
+export default Header;
