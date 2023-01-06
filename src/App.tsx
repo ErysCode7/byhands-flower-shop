@@ -1,5 +1,4 @@
 import { Route, Routes } from "react-router-dom";
-
 import { Footer, Header } from "./components";
 import { About, Home, Products } from "./pages";
 
