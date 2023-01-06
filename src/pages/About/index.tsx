@@ -1,7 +1,13 @@
+import { Story } from "../../components";
+
 type Props = {};
 
 const About = (props: Props) => {
-  return <div>About</div>;
+  return (
+    <>
+      <Story />
+    </>
+  );
 };
 
 export default About;

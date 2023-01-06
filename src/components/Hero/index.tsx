@@ -21,7 +21,7 @@ const Hero = (props: Props) => {
       </div>
       <div className="laptop:flex-[2] order-1 laptop:order-2">
         <img
-          src="/images/flower-shop.jpeg"
+          src="/images/girl.jpeg"
           alt="Flower shop"
           className="object-contain rounded h-[400px] laptop:h-[500px] w-full"
         />
