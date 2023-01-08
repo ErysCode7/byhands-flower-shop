@@ -46,10 +46,10 @@ const MobileSidebar = ({ showMobileNav }: Props) => {
               </li>
             ))}
           </ul>
-          <div className="p-5 pt-7 flex items-center gap-2">
+          <Link to="/cart" className="p-5 pt-7 flex items-center gap-2">
             <h3 className="text-2xl">Cart</h3>
             <FaShoppingCart className="text-2xl text-gray-600" />
-          </div>
+          </Link>
         </div>
       </div>
     </div>

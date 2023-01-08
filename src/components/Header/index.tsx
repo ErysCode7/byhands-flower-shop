@@ -31,10 +31,10 @@ const Header = (props: Props) => {
               <Link to="/product">Product</Link>
             </li>
           </ul>
-          <div className="hidden laptop:flex items-center h-full gap-1 laptop:cursor-pointer">
+          <Link to="/cart" className="hidden laptop:flex items-center h-full gap-1 laptop:cursor-pointer">
             <h3 className="text-2xl text-black font-semibold">Cart</h3>
             <FaShoppingCart className="text-2xl text-gray-600" />
-          </div>
+          </Link>
 
           {/* HAMBURGER */}
           <div className="laptop:hidden flex items-center">
