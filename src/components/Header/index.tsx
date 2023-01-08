@@ -1,7 +1,9 @@
 import { useState } from "react";
 import { FaShoppingCart } from "react-icons/fa";
 import { GiHamburgerMenu, GiTwirlyFlower } from "react-icons/gi";
+import { SlClose } from "react-icons/sl";
 import { Link } from "react-router-dom";
+import MobileSidebar from "../MobileSidebar";
 
 type Props = {};
 
@@ -11,7 +13,7 @@ const Header = (props: Props) => {
   return (
     <>
       <header className="bg-white w-full h-24">
-        <div className="flex item-center justify-between w-[95%] laptop:w-[85%] m-auto h-full">
+        <div className="relative flex item-center justify-between w-[95%] laptop:w-[85%] m-auto h-full">
           <Link to="/" className="flex items-center">
             <GiTwirlyFlower className="text-6xl text-red-500" />
             <h2 className="ml-1 text-4xl font-bold tracking-wide text-gray-700">
@@ -36,11 +38,20 @@ const Header = (props: Props) => {
 
           {/* HAMBURGER */}
           <div className="laptop:hidden flex items-center">
-            <GiHamburgerMenu
-              className="laptop:hidden text-4xl text-gray-700"
-              onClick={() => setShowMobileNav((prev) => !prev)}
-            />
+            {showMobileNav ? (
+              <SlClose
+                className="laptop:hidden text-4xl text-white absolute right-[5px] z-50"
+                onClick={() => setShowMobileNav((prev) => !prev)}
+              />
+            ) : (
+              <GiHamburgerMenu
+                className="laptop:hidden text-4xl text-gray-700 absolute right-[5px] z-50"
+                onClick={() => setShowMobileNav((prev) => !prev)}
+              />
+            )}
           </div>
+
+          {showMobileNav && <MobileSidebar showMobileNav={showMobileNav} />}
         </div>
       </header>
     </>
