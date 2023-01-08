@@ -1,3 +1,4 @@
+import { FaShoppingCart } from "react-icons/fa";
 import { GiTwirlyFlower } from "react-icons/gi";
 import { Link } from "react-router-dom";
 
@@ -33,7 +34,7 @@ const MobileSidebar = ({ showMobileNav }: Props) => {
               </h2>
             </Link>
           </div>
-          <ul className="flex flex-col mt-10 gap-5 text-xl">
+          <ul className="flex flex-col mt-10 gap-3 text-xl">
             {links.map((link) => (
               <li key={link.linkName} className="hover:bg-gray-100 p-5 group">
                 <Link
@@ -45,6 +46,10 @@ const MobileSidebar = ({ showMobileNav }: Props) => {
               </li>
             ))}
           </ul>
+          <div className="p-5 pt-7 flex items-center gap-2">
+            <h3 className="text-2xl">Cart</h3>
+            <FaShoppingCart className="text-2xl text-gray-600" />
+          </div>
         </div>
       </div>
     </div>
