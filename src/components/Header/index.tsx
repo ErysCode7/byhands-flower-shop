@@ -28,7 +28,7 @@ const Header = (props: Props) => {
               <Link to="/about">About</Link>
             </li>
             <li>
-              <Link to="/product">Product</Link>
+              <Link to="/products">Product</Link>
             </li>
           </ul>
           <Link to="/cart" className="hidden laptop:flex items-center h-full gap-1 laptop:cursor-pointer">
