@@ -1,11 +1,11 @@
-import React from 'react'
-
-type Props = {}
+type Props = {};
 
 const Notfound = (props: Props) => {
   return (
-    <main>Notfound</main>
-  )
-}
+    <main>
+      <h1>404 page not found!</h1>
+    </main>
+  );
+};
 
-export default Notfound
+export default Notfound;

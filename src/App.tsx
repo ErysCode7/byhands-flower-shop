@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import { Footer, Header, ProductDetails } from "./components";
+import { Footer, Header, NotFound, ProductDetails } from "./components";
 import { About, Cart, Home, Products } from "./pages";
 
 const App = () => {
@@ -12,6 +12,7 @@ const App = () => {
         <Route path="/products" element={<Products />} />
         <Route path="/products/:id" element={<ProductDetails />} />
         <Route path="/cart" element={<Cart />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
     </>
