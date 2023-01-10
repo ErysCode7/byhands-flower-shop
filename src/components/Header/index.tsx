@@ -3,7 +3,7 @@ import { FaShoppingCart } from "react-icons/fa";
 import { GiHamburgerMenu, GiTwirlyFlower } from "react-icons/gi";
 import { SlClose } from "react-icons/sl";
 import { Link } from "react-router-dom";
-import MobileSidebar from "../MobileSidebar";
+import MobileSidebar, { links } from "../MobileSidebar";
 
 type Props = {};
 
@@ -20,18 +20,19 @@ const Header = (props: Props) => {
               ByHands
             </h2>
           </Link>
-          <ul className="hidden laptop:flex items-center justify-center gap-5 flex-grow">
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/products">Product</Link>
-            </li>
+          <ul className="hidden laptop:flex items-center justify-center gap-7 flex-grow">
+            {links.map((link) => (
+              <li key={link.linkName}>
+                <Link to={link.link} className="byhands__hover-links">
+                  {link.linkName}
+                </Link>
+              </li>
+            ))}
           </ul>
-          <Link to="/cart" className="hidden laptop:flex items-center h-full gap-1 laptop:cursor-pointer">
+          <Link
+            to="/cart"
+            className="hidden laptop:flex items-center h-full gap-1 laptop:cursor-pointer"
+          >
             <h3 className="text-2xl text-black font-semibold">Cart</h3>
             <FaShoppingCart className="text-2xl text-gray-600" />
           </Link>
@@ -51,6 +52,7 @@ const Header = (props: Props) => {
             )}
           </div>
 
+          {/* MOBILE SIDEBAR */}
           {showMobileNav && <MobileSidebar showMobileNav={showMobileNav} />}
         </div>
       </header>

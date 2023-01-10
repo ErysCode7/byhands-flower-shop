@@ -6,22 +6,22 @@ type Props = {
   showMobileNav: boolean;
 };
 
-const MobileSidebar = ({ showMobileNav }: Props) => {
-  const links = [
-    {
-      link: "/",
-      linkName: "Home",
-    },
-    {
-      link: "/about",
-      linkName: "About",
-    },
-    {
-      link: "/products",
-      linkName: "Product",
-    },
-  ];
+export const links = [
+  {
+    link: "/",
+    linkName: "Home",
+  },
+  {
+    link: "/about",
+    linkName: "About",
+  },
+  {
+    link: "/products",
+    linkName: "Product",
+  },
+];
 
+const MobileSidebar = ({ showMobileNav }: Props) => {
   return (
     <div className="w-full h-screen bg-[rgba(0,0,0,_0.5)] fixed right-0 left-[250px] top-0 bottom-0 laptop:hidden">
       <div className="laptop:hidden bg-white h-screen fixed left-0 w-[250px] sm:w-[375px]">
