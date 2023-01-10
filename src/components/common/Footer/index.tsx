@@ -4,9 +4,6 @@ type Props = {};
 
 const Footer = (props: Props) => {
   const location = useLocation();
-
-  console.log(location.pathname);
-
   const year = new Date().getFullYear();
 
   return (
