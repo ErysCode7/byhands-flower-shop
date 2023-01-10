@@ -4,9 +4,9 @@ type Props = {};
 
 const About = (props: Props) => {
   return (
-    <>
+    <main>
       <Story />
-    </>
+    </main>
   );
 };
 

@@ -4,7 +4,7 @@ type Props = {};
 
 const Hero = (props: Props) => {
   return (
-    <main className="flex flex-col laptop:flex-row items-center justify-between w-[85%] m-auto mt-5 laptop:mt-10 laptop:gap-10">
+    <div className="flex flex-col laptop:flex-row items-center justify-between w-[85%] m-auto mt-5 laptop:mt-10 laptop:gap-10">
       <div className="order-2 laptop:order-1 laptop:flex-[1.5] mt-5 laptop:mt-0">
         <h1 className="font-bold text-3xl md:text-4xl laptop:text-5xl xl:text-6xl mb-5 text-[#333]">
           Design Your Comfort Zone
@@ -26,7 +26,7 @@ const Hero = (props: Props) => {
           className="object-contain rounded h-[400px] laptop:h-[500px] w-full"
         />
       </div>
-    </main>
+    </div>
   );
 };
 

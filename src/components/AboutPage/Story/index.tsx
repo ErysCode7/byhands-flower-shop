@@ -2,7 +2,7 @@ type Props = {};
 
 const Story = (props: Props) => {
   return (
-    <main className="flex flex-col laptop:flex-row items-center justify-between w-[85%] m-auto mt-5 laptop:mt-10 laptop:gap-10">
+    <div className="flex flex-col laptop:flex-row items-center justify-between w-[85%] m-auto mt-5 laptop:mt-10 laptop:gap-10">
       <div className="laptop:flex-[2] order-2 laptop:order-1">
         <img
           src="/images/flower-shop.jpeg"
@@ -26,7 +26,7 @@ const Story = (props: Props) => {
           accusamus nesciunt totam vitae esse iste.
         </p>
       </div>
-    </main>
+    </div>
   );
 };
 
