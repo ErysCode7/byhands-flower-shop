@@ -61,5 +61,12 @@
     "price": 22.99,
     "imgUrl": "/images/books/tulips-half-dozen-red.jpg",
     "category": "flowers"
+  },
+  {
+    "id": 10,
+    "name": "Computer",
+    "price": 129.99,
+    "imgUrl": "/images/gadgets/computer.jpg",
+    "category": "gadgets"
   }
 ]
