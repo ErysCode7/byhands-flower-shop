@@ -17,7 +17,7 @@ const MobileSidebar = ({ showMobileNav }: Props) => {
       linkName: "About",
     },
     {
-      link: "/product",
+      link: "/products",
       linkName: "Product",
     },
   ];
