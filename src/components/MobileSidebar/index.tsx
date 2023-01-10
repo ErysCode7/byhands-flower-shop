@@ -23,8 +23,8 @@ const MobileSidebar = ({ showMobileNav }: Props) => {
   ];
 
   return (
-    <div className="w-full h-screen bg-[rgba(0,0,0,_0.5)] fixed right-0 left-[275px] top-0 bottom-0 laptop:hidden">
-      <div className="laptop:hidden bg-white h-screen fixed left-0 w-[275px] sm:w-[375px]">
+    <div className="w-full h-screen bg-[rgba(0,0,0,_0.5)] fixed right-0 left-[250px] top-0 bottom-0 laptop:hidden">
+      <div className="laptop:hidden bg-white h-screen fixed left-0 w-[250px] sm:w-[375px]">
         <div className="pt-5">
           <div className="px-5">
             <Link to="/" className="flex items-center">
