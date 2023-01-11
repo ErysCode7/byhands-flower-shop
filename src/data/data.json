@@ -15,10 +15,10 @@
   },
   {
     "id": 3,
-    "name": "China Dozen White",
-    "price": 25.99,
-    "imgUrl": "/images/books/china-dozen-white.jpg",
-    "category": "flowers"
+    "name": "Computer",
+    "price": 129.99,
+    "imgUrl": "/images/gadgets/computer.jpg",
+    "category": "gadgets"
   },
   {
     "id": 4,
@@ -64,9 +64,9 @@
   },
   {
     "id": 10,
-    "name": "Computer",
-    "price": 129.99,
-    "imgUrl": "/images/gadgets/computer.jpg",
-    "category": "gadgets"
+    "name": "China Dozen White",
+    "price": 25.99,
+    "imgUrl": "/images/books/china-dozen-white.jpg",
+    "category": "flowers"
   }
 ]
