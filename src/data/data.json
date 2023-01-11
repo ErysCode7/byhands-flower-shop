@@ -10,7 +10,7 @@
     "id": 2,
     "name": "China Dozen Red",
     "price": 23.99,
-    "imgUrl": "/images/books/china-dozen-red.jpg",
+    "imgUrl": "/images/flowers/china-dozen-red.jpg",
     "category": "flowers"
   },
   {
@@ -24,49 +24,49 @@
     "id": 4,
     "name": "China Half Dozen Pink",
     "price": 21.99,
-    "imgUrl": "/images/books/china-half-dozen-pink.jpg",
+    "imgUrl": "/images/flowers/china-half-dozen-pink.jpg",
     "category": "flowers"
   },
   {
     "id": 5,
     "name": "Ecua Dozen Red",
     "price": 23.99,
-    "imgUrl": "/images/books/ecua-1-dozen-red.jpg",
+    "imgUrl": "/images/flowers/ecua-1-dozen-red.jpg",
     "category": "flowers"
   },
   {
     "id": 6,
     "name": "Ecua Half Dozen Red",
     "price": 26.99,
-    "imgUrl": "/images/books/ecua-half-dozen-red.jpg",
+    "imgUrl": "/images/flowers/ecua-half-dozen-red.jpg",
     "category": "flowers"
   },
   {
     "id": 7,
     "name": "Lilies Stem",
     "price": 28.99,
-    "imgUrl": "/images/books/lilies-stem.jpg",
+    "imgUrl": "/images/flowers/lilies-stem.jpg",
     "category": "flowers"
   },
   {
     "id": 8,
     "name": "Tulips Dozen Pink",
     "price": 29.99,
-    "imgUrl": "/images/books/tulips-dozen-pink.jpg",
+    "imgUrl": "/images/flowers/tulips-dozen-pink.jpg",
     "category": "flowers"
   },
   {
     "id": 9,
     "name": "Tulips Half Dozen Red",
     "price": 22.99,
-    "imgUrl": "/images/books/tulips-half-dozen-red.jpg",
+    "imgUrl": "/images/flowers/tulips-half-dozen-red.jpg",
     "category": "flowers"
   },
   {
     "id": 10,
     "name": "China Dozen White",
     "price": 25.99,
-    "imgUrl": "/images/books/china-dozen-white.jpg",
+    "imgUrl": "/images/flowers/china-dozen-white.jpg",
     "category": "flowers"
   }
 ]
