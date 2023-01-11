@@ -6,7 +6,7 @@ const Hero = (props: Props) => {
   return (
     <div className="flex flex-col laptop:flex-row items-center justify-between w-[85%] m-auto mt-5 laptop:mt-10 laptop:gap-10">
       <div className="order-2 laptop:order-1 laptop:flex-[1.5] mt-5 laptop:mt-0">
-        <h1 className="font-bold text-3xl md:text-4xl laptop:text-5xl xl:text-6xl mb-5 text-[#333]">
+        <h1 className="font-bold text-3xl md:text-4xl laptop:text-5xl xl:text-6xl mb-5 text-main">
           Design Your Comfort Zone
         </h1>
         <p className="text-gray-500 text-base sm:text-xl xl:text-2xl">
