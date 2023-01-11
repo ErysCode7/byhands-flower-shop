@@ -12,7 +12,7 @@ const Footer = (props: Props) => {
         location.pathname === "/cart" ? "absolute" : "relative"
       } bottom-0 z-[-1]`}
     >
-      <h3 className="text-[#333] text-base">
+      <h3 className="text-main text-base">
         © {year} ByHands All rights reserved
       </h3>
     </footer>
