@@ -11,7 +11,7 @@ const Story = (props: Props) => {
         />
       </div>
       <div className="order-1 laptop:order-2 laptop:flex-[1.5] mt-5 laptop:mt-0">
-        <h1 className="font-bold text-3xl md:text-4xl laptop:text-5xl xl:text-6xl mb-5 text-[#333]">
+        <h1 className="font-bold text-3xl md:text-4xl laptop:text-5xl xl:text-6xl mb-5 text-main">
           Our Story
         </h1>
         <p className="text-gray-500 text-base sm:text-lg">
