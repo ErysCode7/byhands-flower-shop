@@ -1,5 +1,6 @@
 export { default as Story } from "./AboutPage/Story";
 export { default as Footer } from "./common/Footer";
+export { default as BreadCrumbs } from "./common/BreadCrumbs";
 export { default as Header } from "./common/Header";
 export { default as NotFound } from "./common/NotFound";
 export { default as Hero } from "./HomePage/Hero";
