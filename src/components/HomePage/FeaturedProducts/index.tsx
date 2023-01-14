@@ -15,9 +15,9 @@ const FeaturedProducts = (props: Props) => {
               <img
                 src={item.imgUrl}
                 alt={item.name}
-                className="w-[85%] h-[250px] rounded m-auto md:h-[400px] lg:h-[250px] lg:w-[350px] 3xl:w-full 3xl:h-[300px]"
+                className="w-[90%] h-[230px] rounded m-auto md:h-[400px] lg:h-[250px] lg:w-[350px] 3xl:w-full 3xl:h-[300px]"
               />
-              <div className="w-[85%] m-auto flex items-center justify-between lg:w-[350px] pt-2 xl:pt-3 3xl:w-[100%]">
+              <div className="w-[90%] m-auto flex items-center justify-between lg:w-[350px] pt-2 xl:pt-3 3xl:w-[100%]">
                 <h3 className="md:text-lg xl:text-xl">{item.name}</h3>
                 <p className="text-gray-400 xl:text-lg">${item.price}</p>
               </div>
