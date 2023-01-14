@@ -28,8 +28,8 @@ const Insights = (props: Props) => {
   ];
 
   return (
-    <section className="bg-gray-200 my-3 relative">
-      <div className="w-[90%] lg:w-4/5 m-auto py-5">
+    <section className="bg-gray-200 mt-3 relative">
+      <div className="w-[90%] lg:w-4/5 m-auto py-5 lg:pb-0 lg:pt-[70px]">
         <div className="lg:flex lg:items-center lg:justify-between">
           <div className="flex flex-col text-main text-xl md:text-2xl lg:text-3xl font-bold xl:text-4xl mb-5">
             <h3>Custom Furniture</h3>
@@ -41,7 +41,7 @@ const Insights = (props: Props) => {
             dolore aut vero consequuntur.
           </p>
         </div>
-        <div className="flex flex-col lg:flex-row  gap-5 items-center justify-center mt-5 lg:absolute">
+        <div className="flex flex-col lg:flex-row gap-5 items-center justify-center mt-5 lg:pt-0 lg:translate-y-[70px]">
           {cardsData.map((card) => (
             <Cards key={card.id} {...card} />
           ))}
