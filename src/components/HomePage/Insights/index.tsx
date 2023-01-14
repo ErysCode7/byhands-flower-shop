@@ -41,8 +41,8 @@ const Insights = (props: Props) => {
             dolore aut vero consequuntur.
           </p>
         </div>
-        <div>
-          {cardsData.map((card, index) => (
+        <div className="flex flex-wrap items-center justify-between">
+          {cardsData.map((card) => (
             <Cards key={card.id} {...card} />
           ))}
         </div>

@@ -1,12 +1,11 @@
-import { IconType } from "../../../types/types";
 
 type Props = {
-  icon: IconType;
+  icon: JSX.Element;
   title: string;
   text: string;
 };
 
-const Cards = ({ icon, text, title} : Props) => {
+const Cards = ({ icon, text, title }: Props) => {
   return <div>Cards</div>;
 };
 
