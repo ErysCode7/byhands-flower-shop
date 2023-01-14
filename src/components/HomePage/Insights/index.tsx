@@ -35,7 +35,7 @@ const Insights = (props: Props) => {
             <h3>Custom Furniture</h3>
             <h3>Built Only For You</h3>
           </div>
-          <p className="lg:w-[500px]">
+          <p className="lg:w-[500px] text-gray-500">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
             dolorum debitis consectetur reprehenderit non aliquam voluptates
             dolore aut vero consequuntur.

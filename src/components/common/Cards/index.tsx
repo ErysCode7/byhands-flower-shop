@@ -6,12 +6,12 @@ type Props = {
 
 const Cards = ({ icon, text, title }: Props) => {
   return (
-    <div className="rounded w-full bg-white flex flex-col justify-center items-center p-5 text-center md:h-[250px] lg:h-full lg:py-7">
+    <div className="rounded w-full bg-gray-100 flex flex-col justify-center items-center p-5 text-center md:h-[250px] lg:h-full lg:py-7">
       <div className="bg-gray-300 rounded-full p-3">
-        <p className="text-3xl lg:text-4xl">{icon}</p>
+        <p className="text-3xl lg:text-4xl ">{icon}</p>
       </div>
-      <h3 className="font-bold py-2">{title}</h3>
-      <p className="lg:leading-8">{text}</p>
+      <h3 className="font-bold py-2 text-2xl lg:text-3xl">{title}</h3>
+      <p className="lg:leading-8 text-gray-500">{text}</p>
     </div>
   );
 };
