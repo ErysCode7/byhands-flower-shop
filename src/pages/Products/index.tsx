@@ -1,11 +1,14 @@
-import { SearchProducts, Product, Products as ProductLists, BreadCrumbs } from "../../components"
+
+import { BreadCrumbs } from "../../components";
 
 type Props = {};
 
 const Products = (props: Props) => {
-  return <main>
-    <BreadCrumbs />
-  </main>;
+  return (
+    <main>
+      <BreadCrumbs />
+    </main>
+  );
 };
 
 export default Products;
