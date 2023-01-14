@@ -1,6 +1,8 @@
+
+
 type Props = {};
 
-const Cards = (props: Props) => {
+const Cards = () => {
   return <div>Cards</div>;
 };
 
