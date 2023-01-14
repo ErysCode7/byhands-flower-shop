@@ -1,10 +1,12 @@
-
+import { IconType } from "../../../types/types";
 
 type Props = {
-    icon:
+  icon: IconType;
+  title: string;
+  text: string;
 };
 
-const Cards = () => {
+const Cards = ({ icon, text, title} : Props) => {
   return <div>Cards</div>;
 };
 
