@@ -24,7 +24,7 @@ const Insights = (props: Props) => {
   ];
 
   return (
-    <section className="bg-gray-300 my-3">
+    <section className="bg-gray-200 my-3">
       <div className="w-[90%] lg:w-4/5 m-auto py-5">
         <div className="lg:flex lg:items-center lg:justify-between">
           <div className="flex flex-col text-main text-xl md:text-2xl lg:text-3xl font-bold xl:text-4xl mb-5">
