@@ -9,3 +9,4 @@ export { default as Product } from "./ProductsPage/Product";
 export { default as ProductDetails } from "./ProductsPage/ProductDetails";
 export { default as Products } from "./ProductsPage/Products";
 export { default as SearchProducts } from "./ProductsPage/SearchProducts";
+export { default as Insights }
