@@ -1,6 +1,7 @@
 import { FaHistory } from "react-icons/fa";
 import { GiDiamondHard } from "react-icons/gi";
 import { SlCompass } from "react-icons/sl";
+import Cards from "../../common/Cards";
 
 type Props = {};
 
@@ -36,6 +37,11 @@ const Insights = (props: Props) => {
             dolorum debitis consectetur reprehenderit non aliquam voluptates
             dolore aut vero consequuntur.
           </p>
+        </div>
+        <div>
+          {cardsData.map((card, index) => (
+            <Cards key={card.id} {...card} />
+          ))}
         </div>
       </div>
     </section>
