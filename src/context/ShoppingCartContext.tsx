@@ -26,14 +26,46 @@ export const ShoppingCartProvider = ({
   const [cartItems, setCartItems] = useState<CartItems[]>([]);
 
   const getItemQuantity = (id: number) => {
-    return 1;
+    return cartItems.find((item) => item.id === id)?.quantity || 0;
   };
 
-  const increaseCartItem = (id: number) => {};
+  const increaseCartItem = (id: number) => {
+    setCartItems((currentItems) => {
+      if (currentItems.find((item) => item.id === id) == null) {
+        return [...currentItems, { id, quantity: 1 }];
+      } else {
+        return currentItems.map((item) => {
+          if (item.id === id) {
+            return { ...item, quantity: item.quantity + 1 };
+          } else {
+            return item;
+          }
+        });
+      }
+    });
+  };
 
-  const decreaseCartItem = (id: number) => {};
+  const decreaseCartItem = (id: number) => {
+    setCartItems((currentItems) => {
+      if (currentItems.find((item) => item.id === id)?.quantity === 1) {
+        return [...currentItems, { id, quantity: 1 }];
+      } else {
+        return currentItems.map((item) => {
+          if (item.id === id) {
+            return { ...item, quantity: item.quantity - 1 };
+          } else {
+            return item;
+          }
+        });
+      }
+    });
+  };
 
-  const removeFromCart = (id: number) => {};
+  const removeFromCart = (id: number = 0) => {
+    setCartItems((currentItems) =>
+      currentItems.filter((item) => item.id !== id)
+    );
+  };
 
   const value = {
     //state
