@@ -12,7 +12,7 @@ const Header = (props: Props) => {
 
   return (
     <>
-      <header className="bg-white w-full h-24">
+      <header className="bg-white w-full h-24 mb-5 shadow-md">
         <div className="relative flex item-center justify-between w-[95%] laptop:w-[85%] m-auto h-full">
           <Link to="/" className="flex items-center">
             <GiTwirlyFlower className="text-6xl text-red-500" />

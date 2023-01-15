@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-html,
-body {
-  background-color: #f4f4f4;
-}
-
 .byhands__hover-links::after {
   content: "";
   width: 0;
