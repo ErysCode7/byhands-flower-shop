@@ -18,7 +18,7 @@ const Products = (props: Props) => {
               <MdFormatLineSpacing />
             </div>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 place-items-center sm:gap-2">
+          <div className="grid grid-cols-1 sm:grid-cols-2 place-items-center sm:gap-2 md:gap-5">
             {items.map((item) => (
               <Product key={item.id} {...item} />
             ))}
