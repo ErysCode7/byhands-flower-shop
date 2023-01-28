@@ -11,14 +11,14 @@ const Products = (props: Props) => {
     <div className="w-[90%] lg:w-[85%] m-auto">
       <div className="flex flex-col lg:flex-row mt-[20px] sm:mt-[30px] md:mt-[40px] lg:mt-[50px]">
         <ProductSidebar />
-        <div className="flex flex-col">
+        <div className="flex flex-col flex-grow">
           <div className="flex items-center">
             <div className="hidden lg:flex items-center">
               <AiTwotoneAppstore />
               <MdFormatLineSpacing />
             </div>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 place-items-center sm:gap-2 md:gap-5">
+          <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 3xl:grid-cols-4 place-items-center sm:gap-2 md:gap-5">
             {items.map((item) => (
               <Product key={item.id} {...item} />
             ))}

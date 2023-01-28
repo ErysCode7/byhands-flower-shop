@@ -8,11 +8,11 @@ type Props = {
 
 const Product = ({ category, id, imgUrl, name, price }: Props) => {
   return (
-    <div className="rounded w-full sm:w-[280px] md:w-full lg:w-[350px] my-3 bg-[#fefefe] shadow-md border-b">
+    <div className="rounded w-full sm:w-[280px] md:w-full my-3 bg-[#fefefe] shadow-md border-b">
       <img
         src={imgUrl}
         alt={name}
-        className="w-full sm:object-cover h-[300px] rounded aspect-auto"
+        className="w-full sm:object-cover h-[300px] rounded"
       />
       <div className="flex items-center justify-between pt-4 px-2">
         <p className="text-base sm:text-lg md:text-xl">{name}</p>

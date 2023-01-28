@@ -12,7 +12,7 @@ const ProductSidebar = (props: Props) => {
   ];
 
   return (
-    <div className="relative lg:pr-28 flex flex-col">
+    <div className="relative lg:pr-[50px] flex flex-col">
       <input
         type="text"
         placeholder="Search products"
