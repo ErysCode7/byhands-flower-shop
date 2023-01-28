@@ -9,7 +9,7 @@ type Props = {};
 const Products = (props: Props) => {
   return (
     <div className="w-[90%] lg:w-[85%] m-auto">
-      <div className="flex mt-[40px] lg:mt-[50px]">
+      <div className="flex flex-col sm:flex-row mt-[20px] sm:mt-[30px] md:mt-[40px] lg:mt-[50px]">
         <ProductSidebar />
         <div className="flex flex-col">
           <div className="flex items-center">
@@ -18,7 +18,7 @@ const Products = (props: Props) => {
               <MdFormatLineSpacing />
             </div>
           </div>
-          <div className="flex flex-wrap items-center justify-between">
+          <div className="grid grid-cols-1 md:grid-cols-2">
             {items.map((item) => (
               <Product key={item.id} {...item} />
             ))}
