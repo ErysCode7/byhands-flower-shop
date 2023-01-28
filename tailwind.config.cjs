@@ -28,6 +28,7 @@ module.exports = {
       colors: {
         main: "#333",
         secondary: "#6B7280",
+        "light-gray": "#F3F4F6",
       },
     },
   },

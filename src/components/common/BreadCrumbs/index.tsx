@@ -7,7 +7,7 @@ const BreadCrumbs = (props: Props) => {
   const { pathname } = location;
 
   return (
-    <div className="h-28 w-full bg-gray-100 flex items-center capitalize">
+    <div className="h-28 w-full bg-light-gray flex items-center capitalize">
       <div className="w-4/5 m-auto py-5">
         <h3 className="text-xl md:text-2xl font-bold lg:text-4xl text-main">
           <Link to="/">Home</Link> /{" "}

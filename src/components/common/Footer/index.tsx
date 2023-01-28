@@ -8,7 +8,7 @@ const Footer = (props: Props) => {
 
   return (
     <footer
-      className={`bg-gray-100 w-full h-[80px] flex items-center justify-center mt-10
+      className={`bg-light-gray w-full h-[80px] flex items-center justify-center mt-10
       ${location.pathname === "/" ? "translate-y-28" : ""}
       ${
         location.pathname === "/cart" ? "absolute" : "relative"

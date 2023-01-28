@@ -36,7 +36,7 @@ const MobileSidebar = ({ showMobileNav }: Props) => {
           </div>
           <ul className="flex flex-col mt-10 gap-3 text-xl">
             {links.map((link) => (
-              <li key={link.linkName} className="hover:bg-gray-100 p-5 group">
+              <li key={link.linkName} className="hover:bg-light-gray p-5 group">
                 <Link
                   to={link.link}
                   className="group-hover:pl-3 duration-300 transition-all ease-in-out"
