@@ -11,7 +11,7 @@ const Cards = ({ icon, text, title }: Props) => {
         <p className="text-3xl lg:text-4xl ">{icon}</p>
       </div>
       <h3 className="font-bold py-2 text-2xl lg:text-3xl">{title}</h3>
-      <p className="lg:leading-8 text-gray-500">{text}</p>
+      <p className="lg:leading-8 text-secondary">{text}</p>
     </div>
   );
 };

@@ -9,7 +9,7 @@ const Hero = (props: Props) => {
         <h1 className="font-bold text-3xl md:text-4xl laptop:text-5xl xl:text-6xl mb-5 text-main">
           Design Your Comfort Zone
         </h1>
-        <p className="text-gray-500 text-base sm:text-xl xl:text-2xl">
+        <p className="text-secondary text-base sm:text-xl xl:text-2xl">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, at
           sed omnis corporis doloremque possimus velit! Repudiandae nisi odit,
           aperiam odio ducimus, obcaecati libero et quia tempora excepturi quis
